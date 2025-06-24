@@ -19,13 +19,18 @@ This project is a **complete data engineering pipeline** using **dbt (Data Build
 │──  dags/                   # Airflow DAGs (for scheduling)
 │──  Data/                   # Project datasets
 │──  tests/                  # dbt project tests
+│──  assets/                 # dags and data lineage
 │──  dbt_project.yml         # dbt project config file
 │──  README.md               # Project documentation
 │──  requirements.txt        # Project needed libraries (docker image)
 │──  docker-compose.yaml     # Docker config file
 │──  Dockerfile              # Dockerfile 
 ```
+## Data Lineage
+![Dbtlinage](<assets/dbt-dag.png>)
 
+## Airflow Orchestration Dag
+![airflowdag](<assets/airflow.png>)
 
 ## Setup & Installation  
 
@@ -75,7 +80,7 @@ airflow standalone  # Starts the UI & Scheduler
 
 Start the whole project using docker container
 ```sh
-docker compose up --build       # building the container  
+docker compose up airflow-init  # building the container  
 docker compose up               # start the airflow docker container   
 ```
 
