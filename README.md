@@ -75,9 +75,8 @@ airflow standalone  # Starts the UI & Scheduler
 
 Start the whole project using docker container
 ```sh
-docker compose up airflow-init  # initialize airflow db 
+docker compose up --build       # building the container  
 docker compose up               # start the airflow docker container   
 ```
-
 
 
