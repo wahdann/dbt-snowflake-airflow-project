@@ -1,0 +1,22 @@
+# dbt project ignore rules
+
+# Local config
+profiles.yml
+~/.dbt/profiles.yml
+
+# Artifacts
+target/
+dbt_packages/
+logs/
+*.log
+
+# Python
+_pycache_/
+*.pyc
+
+# macOS
+.DS_Store
+
+# BigQuery credentials
+*.json  # Excludes all JSON files (use carefully)
+.env
