@@ -30,7 +30,7 @@ This project is a **complete data engineering pipeline** using **dbt (Data Build
 ![Dbtlinage](<assets/dbt-dag.png>)
 
 ## Airflow Orchestration Dag
-![airflowdag](<assets/airflow.PNG>)
+![airflowdag](<assets/airlow.PNG>)
 
 ## Setup & Installation  
 
