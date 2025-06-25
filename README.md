@@ -27,7 +27,7 @@ This project is a **complete data engineering pipeline** using **dbt (Data Build
 │──  Dockerfile              # Dockerfile 
 ```
 ## Data Lineage
-![Dbtlinage](<assets/dbt-dag.png>)
+![Dbtlinage](<assets/dbtdag.png>)
 
 ## Airflow Orchestration Dag
 ![airflowdag](<assets/airlow.PNG>)
