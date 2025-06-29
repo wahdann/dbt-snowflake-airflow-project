@@ -32,7 +32,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   snowflake_data_project:
     # Config indicated by + and applies to all files under models/example/
-    staging:
+    dims:
       +materialized: table
     marts:
+      +materialized: table
+    facts:
       +materialized: table
